@@ -1,0 +1,38 @@
+@media(max-width:431px) {
+
+    .cabecalho img {
+        width: 50%;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .hero .texto {
+
+        text-align: center;
+
+    }
+
+    .hero .texto h2 {
+        text-align: center;
+    }
+
+    .hero .texto p {
+        width: 90%;
+    }
+
+    .hero .texto a {
+        padding: 15px 80px;
+    }
+
+    .rodape {
+        justify-content: center;
+    }
+
+}

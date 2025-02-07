@@ -1,0 +1,60 @@
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-mobile.svg);
+
+
+
+}
+
+
+.cabecalho {
+    margin: 30px;
+}
+
+.hero {
+    display: flex;
+    margin: 30px;
+
+}
+
+.hero .texto {
+    margin: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .texto h2 {
+    display: flex;
+    font-weight: 700;
+    text-align: left;
+    margin: 10px 20px;
+}
+
+.hero .texto p{
+    margin: 20px;
+    font-weight: 400;
+}
+
+.hero .texto a{
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+}
+
+.rodape{
+    display: flex;
+    justify-content: end;
+    margin: 20px 50px;
+}
+
+.rodape i{
+    padding: 0 10px;
+}
+
